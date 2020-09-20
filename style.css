@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.first_screen {
+    background-image: url("images/background.jpg");
+    height: 853px;
+    background-size: cover;
+}
+
+header {
+    height: 40px;
+    background-color: #af2024;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 15px;
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.video {
+    max-width: 710px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 300px;
+}
+
+.video .video_title {
+    font: 15px/70px 'Arvo', serif;
+    font-weight: 700;
+    color: white;
+    padding-left: 15px;
+    background-color: #98161b;
+}
+
+.video .all_player {
+    max-width: 580px;
+    width: 100%;
+    margin: auto;
+    padding: 65px;
+}
+
+.video .all_player .player {
+    height: 346px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.iframe_video {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.img_play {
+    position: absolute;
+    z-index: 2;
+    bottom: 142px;
+    left: 270px;
+}
+
+.img_play img:hover {
+    cursor: pointer;
+}
+
+.video .all_player .title_data {
+    margin-bottom: 5px;
+}
+
+.all_player .title_data .category, .all_player .title_data .data {
+    font: 13px/13px 'Arvo', serif;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.all_player .title_data .category {
+    color: #98161b;
+}
+
+.all_player .title_data .data {
+    color: #7d7d7d;
+}
+
+.all_player .info {
+    font: 13px/19px 'Arvo', serif;
+    font-weight: 400;
+    color: #98161b;
+    margin-bottom: 40px;
+}
+
+.all_player .info:before {
+    display: block;
+    content: ". . . . . . . . .";
+    color: #98161b;
+    font: 12px/19px 'Arvo', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.network {
+    position: relative;
+}
+
+.network_position {
+    position: absolute;
+    font-size: 33px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    top: 220px;
+    right: 0;
+    position: fixed;
+    list-style: none;
+}
+
+.fab {
+    text-decoration: none;
+    color: white;
+}
+
+.facebook {
+    background-color: #850409;
+}
+
+.twitter {
+    background-color: #98161b;
+}
+
+footer {
+    background-color: black;
+}
+
