@@ -3,14 +3,11 @@
     padding: 0;
 }
 
-body {
-    background-color: black;
-}
-
 .first_screen {
     background-image: url("images/background.jpg");
-    height: 853px;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #3f0002;
 }
 
 header {
@@ -23,7 +20,6 @@ header {
     padding-left: 15px;
     max-width: 960px;
     margin: auto;
-    margin-bottom: 15px;
 }
 
 .video {
@@ -31,7 +27,8 @@ header {
     width: 100%;
     margin: auto;
     background-color: white;
-    margin-bottom: 300px;
+    position: relative;
+    top: 20px;
 }
 
 .video .video_title {
@@ -46,7 +43,7 @@ header {
     max-width: 580px;
     width: 100%;
     margin: auto;
-    padding: 65px;
+    padding: 65px 65px 0 65px;
 }
 
 .video .all_player .player {
@@ -95,7 +92,7 @@ header {
     font: 13px/19px 'Arvo', serif;
     font-weight: 400;
     color: #98161b;
-    margin-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .all_player .info:before {
@@ -112,7 +109,6 @@ header {
 }
 
 .network_position {
-    position: absolute;
     font-size: 33px;
     line-height: 50px;
     width: 50px;
@@ -138,5 +134,6 @@ header {
 
 footer {
     background-color: black;
+    height: 450px;
 }
 
